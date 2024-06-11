@@ -7,3 +7,5 @@ edition = "2021"
 [dependencies]
 glium = "0.34.0"
 winit = "0.30.1"
+log = "0.4.21"
+simple_logger = "5.0.0"
