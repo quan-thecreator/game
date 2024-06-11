@@ -5,4 +5,4 @@ edition = "2021"
 
 
 [dependencies]
-glium = "0.13.4"
+glium = "0.34.0"
