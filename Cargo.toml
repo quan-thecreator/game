@@ -1,8 +1,9 @@
 [package]
 name = "gameEngine"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 
 [dependencies]
 glium = "0.34.0"
+winit = "0.30.1"
