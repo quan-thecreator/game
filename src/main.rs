@@ -1,10 +1,8 @@
-extern crate glium;
-extern crate winit;
-use log::*;
-use simple_logger::SimpleLogger;
-
+use simple_logger;
+use log::{self, info};
+use bevy;
 fn main(){
-    println!("Hello World. Mukund if you touch this project again you're done");
-    SimpleLogger::new().init().unwrap();
-    info!("Loggers are functional");
+    simple_logger::SimpleLogger::new().env().init().unwrap();
+    info!("loggers are now functional, bevy is also loaded if all goes well");
+
 }
